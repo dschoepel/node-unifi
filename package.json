@@ -1,9 +1,9 @@
 {
   "name": "node-unifi",
-  "version": "2.5.1",
-  "description": "NodeJS class for querying UniFi-Controller (www.ubnt.com)",
-  "author": "Jens Maus <mail@jens-maus.de>",
-  "homepage": "https://github.com/jens-maus/node-unifi",
+  "version": "2.5.2",
+  "description": "NodeJS class for querying UniFi-Controller (www.ubnt.com) cloned from https://github.com/jens-maus/node-unifi.git",
+  "author": "Dave J Schoepel",
+  "homepage": "https://github.com/dschoepel/node-unifi",
   "license": "MIT",
   "keywords": [
     "network",
@@ -14,24 +14,25 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jens-maus/node-unifi.git"
+    "url": "git+https://github.com/dschoepel/node-unifi.git"
   },
   "dependencies": {
-    "axios": "1.7.8",
+    "axios": "1.7.9",
     "eventemitter2": "^6.4.9",
     "http-cookie-agent": "^6.0.6",
+    "node-unifi": "file:",
     "tough-cookie": "^4.1.4",
     "url": "^0.11.4",
     "ws": "^8.18.0"
   },
   "devDependencies": {
+    "braces": "^3.0.3",
     "dot-prop": ">=9.0.0",
     "eslint": ">=7.32.0",
     "glob-parent": ">=6.0.2",
     "mocha": "^10.8.2",
     "pre-commit": "^1.2.2",
     "should": "latest",
-    "braces": "^3.0.3",
     "xo": "~0.39.1"
   },
   "xo": {
@@ -47,7 +48,7 @@
     "lintfix": "xo --fix"
   },
   "bugs": {
-    "url": "https://github.com/jens-maus/node-unifi/issues"
+    "url": "https://github.com/dschoepel/node-unifi/issues"
   },
   "engines": {
     "node": ">=14.18.0 <15.0.0 || >=16.0.0"
