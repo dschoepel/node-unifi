@@ -33,7 +33,7 @@
     "mocha": "^10.8.2",
     "pre-commit": "^1.2.2",
     "should": "latest",
-    "xo": "~0.39.1"
+    "xo": "~0.60.0"
   },
   "xo": {
     "space": 2
